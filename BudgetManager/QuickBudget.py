@@ -1,4 +1,5 @@
-#Shea Syverson Budget Manager
+#Quickbudget Budget Manager
+#Written by Shea Syverson 
 import sys
 import re
 
