@@ -1,0 +1,12 @@
+n
+gas
+c
+200.0
+d
+gas
+n
+Shampoo
+c
+20.0
+d
+Shampoo
