@@ -15,4 +15,4 @@ Each expense has a name, cost, and an optional description.
 
 The program supports saving and modification of expenses for reuse across sessions.
 
-The program may support exporting budgets in the near future.
+The program should support exporting budgets in the near future.
