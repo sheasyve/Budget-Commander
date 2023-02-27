@@ -19,4 +19,4 @@ Each expense has a name, cost, and an optional description.
 
 The program supports exporting budgets to a text file for viewing at a later time.
 
-Written by Shea Syverson
+Created by Shea Syverson
