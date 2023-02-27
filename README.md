@@ -12,9 +12,11 @@ View the budget again and modify until you are satisfied.
 
 Export the budget to a text file, for reference.
 
-### Info
-Each expense has a name, cost, and an optional description.
-
+### Info/Features
 The program supports saving and modification of expenses for reuse across sessions.
 
+Each expense has a name, cost, and an optional description.
+
 The program supports exporting budgets to a text file for viewing at a later time.
+
+Written by Shea Syverson
