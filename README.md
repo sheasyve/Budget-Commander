@@ -8,11 +8,13 @@ View the breakdown of your budget.
 
 Modify your budget.
 
-View the budget again until you are satisfied.
+View the budget again and modify until you are satisfied.
+
+Export the budget to a text file, for reference.
 
 ### Info
 Each expense has a name, cost, and an optional description.
 
 The program supports saving and modification of expenses for reuse across sessions.
 
-The program should support exporting budgets in the near future.
+The program supports exporting budgets to a text file for viewing at a later time.
