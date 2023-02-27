@@ -1,8 +1,6 @@
 #Quickbudget Budget Manager
 #Written by Shea Syverson 
 
-#Coming soon: Saving and exporting a budget to text, for reference or to reload and modify.
-
 import sys
 import re
 
