@@ -133,9 +133,6 @@ def manage_budget(funds,expenses,saved_expenses):
             list_expenses(saved_expenses)
             modify_expense(saved_expenses)
             save_expenses(saved_expenses)
-        #elif command == "6":
-        #    if save_budget(expenses,funds) != 0:
-        #        print("Budget saved successfully")
         else:
             print("You have entered an incorrect command")
         command = input("Commands:\n1 - Add an expense, 2 - View the current budget, 3 - List saved expenses,\n4 - Modify budget expense, 5 - Modify saved expense, 0 - Go back\n")
@@ -143,20 +140,6 @@ def manage_budget(funds,expenses,saved_expenses):
 def save_expenses(expenses):
     #Appends an expense to the file to be used across excecutions
     f = open('expenses.txt', 'w', encoding="utf-8")
-    for e in expenses:
-        f.write("n\n"+ e.name +"\nc\n" + str(e.cost) + "\nd\n" + e.description + "\n")
-    f.close()
-
-def save_budget(expenses, funds):
-    #Writes a budget to a file
-    #Not yet used by the program
-    bname = input("Enter a name for the budget\n")
-    try:
-        f = open(str(bname + ".txt"), 'x', encoding="utf-8")
-    except OSError:
-        print("File already exists, try a different name")
-        return 0
-    f.write(str(funds) + "\n")
     for e in expenses:
         f.write("n\n"+ e.name +"\nc\n" + str(e.cost) + "\nd\n" + e.description + "\n")
     f.close()
