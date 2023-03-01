@@ -1,4 +1,4 @@
-#Quickbudget Budget Manager
+#Budget Commander Budget Manager
 #Written by Shea Syverson 
 
 import sys
