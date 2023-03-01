@@ -1,4 +1,4 @@
-# QuickBudget
+# Budget Commander 
 A simple command line budget manager for python.
 
 ### Useage
